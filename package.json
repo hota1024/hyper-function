@@ -1,0 +1,23 @@
+{
+  "name": "hyper-function",
+  "version": "1.0.0",
+  "description": "Named Parameters and Overloadable Function for JavaScript",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hota1024/hyper-function.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Named Parameters",
+    "Overloadable Function"
+  ],
+  "author": "hota1024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hota1024/hyper-function/issues"
+  },
+  "homepage": "https://github.com/hota1024/hyper-function#readme",
+  "devDependencies": {}
+}
