@@ -50,7 +50,7 @@ const func = hyper([
 
 # デモと解説
 
-## Vec2
+## Vec2 - 基本的なオーバーロードの使い方
 
 ```js
 const Vec2 = hyper([
