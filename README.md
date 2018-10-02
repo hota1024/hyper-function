@@ -214,9 +214,9 @@ const Human = hyper([
 Human('Taro', 'Yamada', 4, 6)
 ```
 
-この例だけ見ると名前が`Yamada Taro`ということは分かるのですが、次の`4, 6`が`4月6日`なのか`6月4日`なのかはっきりしません。
+この例だけ見ると名前が`Yamada Taro`ということは分かるのですが、次の`4, 6`が`4月6日`なのか`6月4日`なのかはっきりしません。
 
-そんなときに*名前付き引数(NamedParameter)*が役立ちます。
+そんなときに*名前付き引数(NamedParameter)*が役立ちます。
 
 NamedParameterを使うにはhyper-functionを`import`する部分を以下のようにします。
 
@@ -224,7 +224,7 @@ NamedParameterを使うにはhyper-functionを`import`する部分を以下の�
 import hyper, { NamedParameter as Np } from 'hyper-function'
 ```
 
-先程の例を名前付き引数で呼び出してみます。
+先程の例を名前付き引数で呼び出してみます。
 
 ```js
 Human(Np.Firstname = 'Taro', Np.Lastname = 'Yamada', Np.BirthdayMonth = 4, Np.BirthdayDay = 6)
@@ -255,7 +255,7 @@ Human('Taro', 'Yamada', Np.BirthdayDay = 6, Np.BirthdayMonth = 4)
 //=> {FirstName: "Taro", LastName: "Yamada", BirthdayMonth: 4, BirthdayDay: 6}
 ```
 
-## デフォルト値
+## デフォルト値
 引数にはデフォルト値を付けれます。
 
 通常引数を定義するときは
@@ -263,7 +263,7 @@ Human('Taro', 'Yamada', Np.BirthdayDay = 6, Np.BirthdayMonth = 4)
 引数名:型
 ```
 ですが
-引数のデフォルト値を付けるには
+引数のデフォルト値を付けるには
 ```js
 引数名: {
   type: 型,
