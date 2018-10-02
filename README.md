@@ -100,7 +100,7 @@ const Vec2 = hyper([
 x: Number,
 y: Number,
 ```
-で引数を定義します。この場合だと*Number型のx*と*Number型のy*を定義しています。
+で引数を定義します。この場合だと*Number型のx*と*Number型のy*を定義しています。
 
 次の
 ```js
