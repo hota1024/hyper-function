@@ -13,7 +13,10 @@
     "Named Parameters",
     "Overloadable Function"
   ],
-  "author": "hota1024",
+  "author": {
+    "name": "hota1024",
+    "email": "dev@hota1024.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hota1024/hyper-function/issues"
