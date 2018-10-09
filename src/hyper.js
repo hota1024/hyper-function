@@ -1,7 +1,8 @@
 import PrepareFunctions from './PrepareFunctions'
 import CreateWrapper from './CreateWrapper'
+import NamedParameter from './NamedParameter'
 
-export default function hyper(funcsArray) {
+function hyper(funcsArray) {
 	// Prepare Functions Data
 	const funcs = PrepareFunctions(funcsArray)
 	// Function Wrapper
@@ -9,3 +10,7 @@ export default function hyper(funcsArray) {
 
 	return wrap
 }
+
+hyper.Np = NamedParameter
+
+export default hyper

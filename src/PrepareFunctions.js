@@ -3,7 +3,7 @@ import Arg from './Arg'
 import Func from './Func'
 import hyper from './index'
 
-	export default function PrepareFunctions (funcsArray) {
+export default function PrepareFunctions (funcsArray) {
 	const funcs = []
 
 	BreakableForeach(funcsArray, funcItem => {
@@ -33,7 +33,7 @@ import hyper from './index'
 			}
 			else if (typeof data === 'object')
 			{
-				arg.set(key, data.type || hyper.Any, data.default || null)
+				arg.set(key, data.type || null, data.default || null)
 			}
 
 			args.push(arg)
